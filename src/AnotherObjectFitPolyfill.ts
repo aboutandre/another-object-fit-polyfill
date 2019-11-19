@@ -1,6 +1,9 @@
 'use strict';
 
 export class AnotherObjectFitPolyfill {
+    els: string;
+    styleClass: string;
+
     constructor(els, styleClass) {
         this.els = els;
         this.styleClass = styleClass;
